@@ -22,6 +22,12 @@
             "title": "연락처",
             "title_long_prefix": "주저하지 말고",
             "title_long": "**연락** 주세요"
+        },
+
+        "pt": {
+            "title": "Contato",
+            "title_long_prefix": "Não faça drama",
+            "title_long": "**Chama** ai"
         }
     },
 
@@ -34,7 +40,8 @@
                 "en": {"title": "Send me a **message**"},
                 "es": {"title": "Envíame un **mensaje**"},
                 "fr": {"title": "Envoyez-moi un **message**"},
-                "ko": {"title": "**메시지를** 보내주세요"}
+                "ko": {"title": "**메시지를** 보내주세요"},
+                "pt": {"title": "Me manda uma **mensagem**"}
             },
 
             "items": null
@@ -50,14 +57,15 @@
                 "en": {"title": "Or if you **prefer**..."},
                 "es": {"title": "O si **prefieres**..."},
                 "fr": {"title": "Ou si vous **préférez**..."},
-                "ko": {"title": "또는 **원하시면**..."}
+                "ko": {"title": "또는 **원하시면**..."},
+                "pt": {"title": "Ou se preferir **Preferir**..."}
             },
 
             "items": [
                 {
-                    "value": "+1 (123) 456-7890",
+                    "value": "+55 (41) 99980-8681",
                     "links": [
-                        {"href": "tel:11234567890"}
+                        {"href": "tel:(41) 99980-8681"}
                     ],
                     "icon": {
                         "img": null,
@@ -68,14 +76,15 @@
                         "en": {"title": "Phone"},
                         "es": {"title": "Teléfono"},
                         "fr": {"title": "Téléphone"},
-                        "ko": {"title": "전화"}
+                        "ko": {"title": "전화"},
+                        "pt": {"title": "Celular"}
                     }
                 },
 
                 {
-                    "value": "mark.choi@email.com",
+                    "value": "Kaique.iglesias.k@gmail.com",
                     "links": [
-                        {"href": "mailto:mark.choi@email.com"}
+                        {"href": "Kaique.iglesias.k@gmail.com"}
                     ],
                     "icon": {
                         "img": null,
@@ -89,9 +98,9 @@
                 },
 
                 {
-                    "value": "@markchoi",
+                    "value": "@Kaique",
                     "links": [
-                        {"href": "https://linkedin.com"}
+                        {"href": "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"}
                     ],
                     "icon": {
                         "img": null,
@@ -103,25 +112,12 @@
                     }
                 },
 
-                {
-                    "value": "Mark Choi",
-                    "links": [
-                        {"href": "https://facebook.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-facebook",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "Facebook"}
-                    }
-                },
+              
 
                 {
-                    "value": "@markchoi",
+                    "value": "@Kaiqueiglesias.k",
                     "links": [
-                        {"href": "https://instagram.com"}
+                        {"href": "https://www.instagram.com/kaiqueiglesias.k/profilecard/?igsh=MXV1b2VobGV3cHplZQ=="}
                     ],
                     "icon": {
                         "img": null,
@@ -131,22 +127,9 @@
                     "locales": {
                         "en": {"title": "Instagram"}
                     }
-                },
-
-                {
-                    "value": "@markchoi",
-                    "links": [
-                        {"href": "https://tiktok.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-tiktok",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "TikTok"}
-                    }
                 }
+
+                
             ]
         }
     ]
