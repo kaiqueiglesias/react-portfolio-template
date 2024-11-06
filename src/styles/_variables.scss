@@ -102,7 +102,7 @@ $loader-background-color: #111111;
     --theme-soft-3: #c6bad9;
 
     --theme-dark: #daf5e4;
-    --theme-dark-opacity: rgba(218, 245, 228, 0.2);
+    --theme-dark-opacity: rgba(136, 84, 226, 0.2);
     --theme-muted: #847c8d;
     --theme-white: #ffffff;
 
@@ -133,12 +133,6 @@ $loader-background-color: #111111;
 
 .bg-dark {
     background-image: url('/images/css/bg-dark.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.bg-green {
-    background-image: url('/images/css/bg-green.png');
     background-size: cover;
     background-position: center;
 }
